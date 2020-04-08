@@ -14,13 +14,6 @@ export default class ThemeProvider extends React.Component {
         ? lightAndDarkTheme.light
         : lightAndDarkTheme.dark;
 
-    console.log(
-      'currentTheme: ' +
-        currentTheme.foreground +
-        ' newTheme: ' +
-        newTheme.foreground,
-    );
-
     this.setState({theme: newTheme});
   };
 
