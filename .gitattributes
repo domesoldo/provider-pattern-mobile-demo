@@ -1,1 +1,2 @@
-*.pbxproj -text
+* linguist-vendored
+*.tsx linguist-vendored=false
