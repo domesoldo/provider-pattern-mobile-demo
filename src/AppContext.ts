@@ -1,6 +1,6 @@
 import React, {Context} from 'react';
 import {lightAndDarkTheme} from './themes/themes';
-import {ThemeState} from 'themes/themes';
+import {ThemeState} from './themes/themes';
 
 // Context lets us pass a value deep into the component tree
 // without explicitly threading it through every component.

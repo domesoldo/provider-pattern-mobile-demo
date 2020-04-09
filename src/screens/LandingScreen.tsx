@@ -1,8 +1,8 @@
 import React, {useContext} from 'react';
 import {StyleSheet, SafeAreaView, View, Text, Button} from 'react-native';
 
-import {ThemeState} from 'themes/themes';
-import {ThemeContext} from 'AppContext';
+import {ThemeState} from '../themes/themes';
+import {ThemeContext} from '../AppContext';
 
 const LandingScreen = () => {
   const themeState: ThemeState = useContext(ThemeContext);
